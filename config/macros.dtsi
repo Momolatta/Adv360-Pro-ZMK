@@ -1,9 +1,3 @@
-macro_manico_f: macro_manico_f{
-compatible = "zmk,behavior-macro";
-label = "macro_manico_f";
-#binding-cells = <0>;
-bindings = <&kp LA(LC(F))>;
-};
 macro_scriv_findall: macro_scriv_findall{
 compatible = "zmk,behavior-macro";
 label = "macro_scriv_findall";
@@ -32,7 +26,7 @@ macro_alf_paste: macro_alf_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_alf_paste";
 #binding-cells = <0>;
-bindings = <&kp LA(SPACE)>, <&kp SPACE>, <&kp LG(V)>;
+bindings = <&kp LA(SPACE)>, <&kp LG(V)>, <&kp ENTER>;
 };
 macro_dic_e: macro_dic_e{
 compatible = "zmk,behavior-macro";
